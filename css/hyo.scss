@@ -201,7 +201,9 @@ border-top: 3px solid #8c8c8c;
     }
 }
 }
+
 //반응형
+@media screen and (max-width:768px){
 #green18_105003{
     .banArea{
         padding: 10px !important;
@@ -214,15 +216,16 @@ border-top: 3px solid #8c8c8c;
         .shopHead{
             border-bottom: none !important;
         }
-    }   li{
-        height: auto !important;
+        ul li{
+            height: auto !important;
+        }
     }
 }
 #green18_98273 .gal_box{
     border:none !important;
-}
-@media screen and (max-width:768px){
-    #list_table > tbody > tr:nth-child(1) > td.item.gals_0 > table > tbody > tr> td{
-        border: none !important;
     }
+
+#list_table > tbody > tr:nth-child(1) > td.item.gals_0 > table > tbody > tr> td{
+    border: none !important;
+}
 }
