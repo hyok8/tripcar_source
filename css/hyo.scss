@@ -201,31 +201,3 @@ border-top: 3px solid #8c8c8c;
     }
 }
 }
-
-//반응형
-@media screen and (max-width:768px){
-#green18_105003{
-    .banArea{
-        padding: 10px !important;
-    }
-}
-
-//인기차량
-#green18_106718 {
-    .gal_eff1{
-        .shopHead{
-            border-bottom: none !important;
-        }
-        ul li{
-            height: auto !important;
-        }
-    }
-}
-#green18_98273 .gal_box{
-    border:none !important;
-    }
-
-#list_table > tbody > tr:nth-child(1) > td.item.gals_0 > table > tbody > tr> td{
-    border: none !important;
-}
-}
