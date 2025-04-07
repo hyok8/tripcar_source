@@ -145,19 +145,24 @@ tr.dis_none {
 #list_table > tbody > tr:nth-of-type(2) table {
   background: none !important;
 }
-#list_table > tbody > tr:nth-of-type(2) div.bgc_000 {
-  display: none !important;
-}
-#list_table > tbody > tr:nth-of-type(2) div {
-  box-shadow: none !important;
-  background: none !important;
-  text-align: left !important;
-}
 #list_table .gal_img img {
   width: 100% !important;
   height: 100% !important;
   -o-object-fit: cover !important;
      object-fit: cover !important;
-  max-width: auto !important;
-  max-height: auto !important;
+  max-width: none !important;
+  max-height: none !important;
+}
+#list_table .bgc_pos {
+  height: 300px !important;
+}
+#list_table .gal_ttl.limitTxt {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+#list_table .gal_ttl.limitTxt a:link {
+  color: #333 !important;
+}
+#list_table .gal_ttl.limitTxt a:link:hover {
+  color: #3EB489 !important;
 }

@@ -179,22 +179,24 @@
     > tbody > tr:nth-of-type(2) table {
       background: none !important;
     }
-  
-    > tbody > tr:nth-of-type(2) div.bgc_000 {
-      display: none !important;
-    }
-  
-    > tbody > tr:nth-of-type(2) div {
-      box-shadow: none !important;
-      background: none !important;
-      text-align: left !important;
-    }
-  
     .gal_img img {
       width: 100% !important;
       height: 100% !important;
       object-fit: cover!important;
-      max-width: auto !important;
-      max-height: auto !important;
+      max-width: none !important;
+      max-height: none !important;
+    }
+    .bgc_pos{
+        height: 300px !important;
+    }
+    .gal_ttl.limitTxt{
+        font-size: 20px !important;
+        font-weight: 600 !important;
+        a:link{
+            color:#333!important;
+            &:hover{
+                color:#3EB489 !important
+            }
+        }
     }
   }
