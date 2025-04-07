@@ -67,16 +67,16 @@ div.shopSelBox02 > div > select, .shopPriceBox + div, #prdAsment, #tabMenus, #FR
 }
 
 #FRM > div.show_view > div:nth-child(11) {
-  order: 2;
+  order: 3;
   margin-top: 0 !important;
 }
 
 #FRM > div.show_view > div:nth-child(9) {
-  order: 3;
+  order: 4;
 }
 
 #FRM > div.show_view > div:nth-child(10) {
-  order: 4;
+  order: 5;
 }
 
 #FRM > div.show_view > div.shop_frame.clearfix.shop_framehyo {
@@ -86,4 +86,7 @@ div.shopSelBox02 > div > select, .shopPriceBox + div, #prdAsment, #tabMenus, #FR
 
 .shop_title_text {
   font-size: 24px !important;
+}
+.shop_title_text + .shop_frame {
+  order: 2;
 }
