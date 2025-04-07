@@ -173,7 +173,8 @@
   [name="FRM"] .gTable2 tr:first-of-type > td {
     border-top: 3px solid #8c8c8c;
   }
-  
+
+//이용후기  
   #list_table {
     > tbody > tr:nth-of-type(2) table {
       background: none !important;
@@ -192,6 +193,8 @@
     .gal_img img {
       width: 100% !important;
       height: 100% !important;
+      object-fit: cover!important;
+      max-width: auto !important;
+      max-height: auto !important;
     }
   }
-  

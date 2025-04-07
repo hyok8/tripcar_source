@@ -156,4 +156,8 @@ tr.dis_none {
 #list_table .gal_img img {
   width: 100% !important;
   height: 100% !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  max-width: auto !important;
+  max-height: auto !important;
 }
