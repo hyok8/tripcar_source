@@ -1,30 +1,197 @@
-
-.bx-wrapper .bx-controls-direction a {width:78px!important; height:78px !important;}  
-.bx-wrapper .bx-prev   {left: 50px !important; background: url(https://d-hye.github.io/source/img_tripcar/slideBtnLeft.svg) no-repeat center / contain !important;}
-.bx-wrapper .bx-next   {right: 50px !important; background: url(https://d-hye.github.io/source/img_tripcar/slideBtnRight.svg) no-repeat center / contain !important;}
+.bx-wrapper {
+    .bx-controls-direction a {
+      width: 78px !important;
+      height: 78px !important;
+    }
   
-div.shopSelBox02 > div > select, .shopPriceBox+div, #prdAsment, #tabMenus,#FRM > table:nth-child(37), #tabMenus, .shop_list, .shopPriceBox{display:none;}
+    .bx-prev {
+      left: 50px !important;
+      background: url(https://d-hye.github.io/source/img_tripcar/slideBtnLeft.svg) no-repeat center / contain !important;
+    }
   
-#bannerBox1,#bannerBox2{width:80px !important; height:80px  !important; background-color:rgba(255, 255, 255, 0.5)  !important; border-radius:50%  !important;} 
-#bannerBox1 > div > a > img,#bannerBox2 > div > a > img{width:100% !important; height:100%;}
-#footer04 > div.fixed_top{bottom: 50px;    right: 30px;}
+    .bx-next {
+      right: 50px !important;
+      background: url(https://d-hye.github.io/source/img_tripcar/slideBtnRight.svg) no-repeat center / contain !important;
+    }
+  }
   
-.show_view > div:nth-child(2) > div > div.shop_list{border-bottom:none !important;padding-bottom:0 !important;}
-.show_view {display:flex !important; flex-direction:column !important; justify-content:space-between !important; width: 450px !important; height:300px !important; box-shadow:0px 1px 1px 2px rgba(0,0, 0, 0.5) !important; padding: 20px !important; border-radius:20px !important;}  
+  div.shopSelBox02 {
+    > div > select, 
+    .shopPriceBox + div,
+    #prdAsment,
+    #tabMenus,
+    #FRM > table:nth-child(37),
+    #tabMenus,
+    .shop_list,
+    .shopPriceBox {
+      display: none;
+    }
+  }
   
-.shop_list{border-bottom:none }
-.shop_frame{padding:0 !important};
+  #bannerBox1, #bannerBox2 {
+    width: 80px !important;
+    height: 80px !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border-radius: 50% !important;
   
-#FRM > div.show_view > div.shop_frame.shop_title_text {order:1;}
-#FRM > div.show_view > div.shop_frame.shop_title_text > div:nth-child(1) {font-size: 20px !important;}
-#FRM > div.show_view > div:nth-child(11) {order:3; margin-top: 0 !important;}
-#FRM > div.show_view > div:nth-child(9){order:4}
-#FRM > div.show_view > div:nth-child(10){order:5}
-#FRM > div.show_view > div.shop_frame.clearfix.shop_framehyo{font-size : 20px!important; border-top:none !important;}
-.shop_title_text{
-    font-size:24px !important;
-     + .shop_frame{
-        order:2;
-     }
-}  
-
+    > div > a > img {
+      width: 100% !important;
+      height: 100%;
+    }
+  }
+  
+  #footer04 {
+    > div.fixed_top {
+      bottom: 50px;
+      right: 30px;
+    }
+  }
+  
+  .show_view {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    width: 450px !important;
+    height: 300px !important;
+    box-shadow: 0px 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+    padding: 20px !important;
+    border-radius: 20px !important;
+  
+    > div:nth-child(2) > div > div.shop_list {
+      border-bottom: none !important;
+      padding-bottom: 0 !important;
+    }
+  
+    .shop_title_text {
+      font-size: 24px !important;
+  
+      + .shop_frame {
+        order: 2;
+      }
+    }
+  
+    .shop_frame {
+      padding: 0 !important;
+    }
+  
+    .shop_btn a div {
+      background: #3EB489 !important;
+      border-radius: 50% !important;
+    }
+  
+    .shop_btn02 a div {
+      border-radius: 50px;
+    }
+  
+    > div:nth-child(10) > div:nth-child(3) > a > div {
+      border-radius: 50px;
+    }
+  
+    #tot_txt {
+      font-size: 25px;
+    }
+  
+    #imgSize {
+      > form > div.shop-cade03 > ul > li.active {
+        border: 2px solid #3EB489 !important;
+      }
+  
+      > form > div.shop-cade03 > ul > li.active > a, 
+      .shop-cade03 ul a:hover {
+        color: #3EB489 !important;
+      }
+  
+      > div > div.tabMenuArea > ul {
+        color: #4c4c4c !important;
+        font-weight: 700;
+      }
+  
+      > form > table.gTable2 > tbody > tr:nth-child(1) > td {
+        border: 1px solid #ccc !important;
+      }
+  
+      div.tabMenuArea > ul > li a:hover, 
+      div.tabMenuArea > ul > li:hover {
+        color: #3EB489 !important;
+      }
+    }
+  }
+  
+  .shop_list {
+    border-bottom: none;
+  }
+  
+  .shop_frame {
+    padding: 0 !important;
+  }
+  
+  #FRM {
+    > div.show_view {
+      display: flex !important;
+  
+      > div.shop_frame.shop_title_text {
+        order: 1;
+      }
+  
+      > div.shop_frame.shop_title_text > div:nth-child(1) {
+        font-size: 20px !important;
+      }
+  
+      > div:nth-child(11) {
+        order: 3;
+        margin-top: 0 !important;
+      }
+  
+      > div:nth-child(9) {
+        order: 4;
+      }
+  
+      > div:nth-child(10) {
+        order: 5;
+      }
+  
+      > div.shop_frame.clearfix.shop_framehyo {
+        font-size: 20px !important;
+        border-top: none !important;
+      }
+    }
+  }
+  
+  tr.dis_none {
+    display: none;
+  }
+  
+  [name="frm01"] td[bgcolor],
+  [name="FRM"] tr:nth-child(2) > td:nth-child(2)[bgcolor] {
+    background-color: #8d8d8d;
+  }
+  
+  #imgSize > form > table > tbody > tr:nth-child(3) > td > table > tbody > tr:nth-child(11) > td {
+    background-color: transparent !important;
+  }
+  
+  [name="FRM"] .gTable2 tr:first-of-type > td {
+    border-top: 3px solid #8c8c8c;
+  }
+  
+  #list_table {
+    > tbody > tr:nth-of-type(2) table {
+      background: none !important;
+    }
+  
+    > tbody > tr:nth-of-type(2) div.bgc_000 {
+      display: none !important;
+    }
+  
+    > tbody > tr:nth-of-type(2) div {
+      box-shadow: none !important;
+      background: none !important;
+      text-align: left !important;
+    }
+  
+    .gal_img img {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+  
