@@ -74,22 +74,23 @@ div.shopSelBox02 .shopPriceBox {
 .show_view #tot_txt {
   font-size: 25px;
 }
-.show_view #imgSize > form > div.shop-cade03 > ul > li.active {
+
+#imgSize > form > div.shop-cade03 > ul > li.active {
   border: 2px solid #3EB489 !important;
 }
-.show_view #imgSize > form > div.shop-cade03 > ul > li.active > a,
-.show_view #imgSize .shop-cade03 ul a:hover {
+#imgSize > form > div.shop-cade03 > ul > li.active > a,
+#imgSize .shop-cade03 ul a:hover {
   color: #3EB489 !important;
 }
-.show_view #imgSize > div > div.tabMenuArea > ul {
+#imgSize > div > div.tabMenuArea > ul {
   color: #4c4c4c !important;
   font-weight: 700;
 }
-.show_view #imgSize > form > table.gTable2 > tbody > tr:nth-child(1) > td {
+#imgSize > form > table.gTable2 > tbody > tr:nth-child(1) > td {
   border: 1px solid #ccc !important;
 }
-.show_view #imgSize div.tabMenuArea > ul > li a:hover,
-.show_view #imgSize div.tabMenuArea > ul > li:hover {
+#imgSize div.tabMenuArea > ul > li a:hover,
+#imgSize div.tabMenuArea > ul > li:hover {
   color: #3EB489 !important;
 }
 
@@ -165,4 +166,25 @@ tr.dis_none {
 }
 #list_table .gal_ttl.limitTxt a:link:hover {
   color: #3EB489 !important;
+}
+
+#green18_105003 .banArea {
+  padding: 10px !important;
+}
+
+#green18_106718 .gal_eff1 .shopHead {
+  border-bottom: none !important;
+}
+#green18_106718 li {
+  height: auto !important;
+}
+
+#green18_98273 .gal_box {
+  border: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  #list_table > tbody > tr:nth-child(1) > td.item.gals_0 > table > tbody > tr > td {
+    border: none !important;
+  }
 }

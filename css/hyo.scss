@@ -15,188 +15,214 @@
     }
   }
   
-  div.shopSelBox02 {
-    > div > select, 
-    .shopPriceBox + div,
-    #prdAsment,
-    #tabMenus,
-    #FRM > table:nth-child(37),
-    #tabMenus,
-    .shop_list,
-    .shopPriceBox {
-      display: none;
-    }
-  }
-  
-  #bannerBox1, #bannerBox2 {
-    width: 80px !important;
-    height: 80px !important;
-    background-color: rgba(255, 255, 255, 0.5) !important;
-    border-radius: 50% !important;
-  
-    > div > a > img {
-      width: 100% !important;
-      height: 100%;
-    }
-  }
-  
-  #footer04 {
-    > div.fixed_top {
-      bottom: 50px;
-      right: 30px;
-    }
-  }
-  
-  .show_view {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: space-between !important;
-    width: 450px !important;
-    height: 300px !important;
-    box-shadow: 0px 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
-    padding: 20px !important;
-    border-radius: 20px !important;
-  
-    > div:nth-child(2) > div > div.shop_list {
-      border-bottom: none !important;
-      padding-bottom: 0 !important;
-    }
-  
-    .shop_title_text {
-      font-size: 24px !important;
-  
-      + .shop_frame {
-        order: 2;
-      }
-    }
-  
-    .shop_frame {
-      padding: 0 !important;
-    }
-  
-    .shop_btn a div {
-      background: #3EB489 !important;
-      border-radius: 50% !important;
-    }
-  
-    .shop_btn02 a div {
-      border-radius: 50px;
-    }
-  
-    > div:nth-child(10) > div:nth-child(3) > a > div {
-      border-radius: 50px;
-    }
-  
-    #tot_txt {
-      font-size: 25px;
-    }
-  
-    #imgSize {
-      > form > div.shop-cade03 > ul > li.active {
-        border: 2px solid #3EB489 !important;
-      }
-  
-      > form > div.shop-cade03 > ul > li.active > a, 
-      .shop-cade03 ul a:hover {
-        color: #3EB489 !important;
-      }
-  
-      > div > div.tabMenuArea > ul {
-        color: #4c4c4c !important;
-        font-weight: 700;
-      }
-  
-      > form > table.gTable2 > tbody > tr:nth-child(1) > td {
-        border: 1px solid #ccc !important;
-      }
-  
-      div.tabMenuArea > ul > li a:hover, 
-      div.tabMenuArea > ul > li:hover {
-        color: #3EB489 !important;
-      }
-    }
-  }
-  
-  .shop_list {
-    border-bottom: none;
-  }
-  
-  .shop_frame {
-    padding: 0 !important;
-  }
-  
-  #FRM {
-    > div.show_view {
-      display: flex !important;
-  
-      > div.shop_frame.shop_title_text {
-        order: 1;
-      }
-  
-      > div.shop_frame.shop_title_text > div:nth-child(1) {
-        font-size: 20px !important;
-      }
-  
-      > div:nth-child(11) {
-        order: 3;
-        margin-top: 0 !important;
-      }
-  
-      > div:nth-child(9) {
-        order: 4;
-      }
-  
-      > div:nth-child(10) {
-        order: 5;
-      }
-  
-      > div.shop_frame.clearfix.shop_framehyo {
-        font-size: 20px !important;
-        border-top: none !important;
-      }
-    }
-  }
-  
-  tr.dis_none {
+div.shopSelBox02 {
+> div > select, 
+.shopPriceBox + div,
+#prdAsment,
+#tabMenus,
+#FRM > table:nth-child(37),
+#tabMenus,
+.shop_list,
+.shopPriceBox {
     display: none;
-  }
+}
+}
   
-  [name="frm01"] td[bgcolor],
-  [name="FRM"] tr:nth-child(2) > td:nth-child(2)[bgcolor] {
-    background-color: #8d8d8d;
-  }
+#bannerBox1, #bannerBox2 {
+width: 80px !important;
+height: 80px !important;
+background-color: rgba(255, 255, 255, 0.5) !important;
+border-radius: 50% !important;
+
+> div > a > img {
+    width: 100% !important;
+    height: 100%;
+}
+}
   
-  #imgSize > form > table > tbody > tr:nth-child(3) > td > table > tbody > tr:nth-child(11) > td {
-    background-color: transparent !important;
-  }
+#footer04 {
+> div.fixed_top {
+    bottom: 50px;
+    right: 30px;
+}
+}
   
-  [name="FRM"] .gTable2 tr:first-of-type > td {
-    border-top: 3px solid #8c8c8c;
-  }
+.show_view {
+display: flex !important;
+flex-direction: column !important;
+justify-content: space-between !important;
+width: 450px !important;
+height: 300px !important;
+box-shadow: 0px 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+padding: 20px !important;
+border-radius: 20px !important;
+
+> div:nth-child(2) > div > div.shop_list {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+}
+
+.shop_title_text {
+    font-size: 24px !important;
+
+    + .shop_frame {
+    order: 2;
+    }
+}
+
+.shop_frame {
+    padding: 0 !important;
+}
+
+.shop_btn a div {
+    background: #3EB489 !important;
+    border-radius: 50% !important;
+}
+
+.shop_btn02 a div {
+    border-radius: 50px;
+}
+
+> div:nth-child(10) > div:nth-child(3) > a > div {
+    border-radius: 50px;
+}
+
+#tot_txt {
+    font-size: 25px;
+}
+}
+  
+#imgSize {
+    > form > div.shop-cade03 > ul > li.active {
+    border: 2px solid #3EB489 !important;
+    }
+
+    > form > div.shop-cade03 > ul > li.active > a, 
+    .shop-cade03 ul a:hover {
+    color: #3EB489 !important;
+    }
+
+    > div > div.tabMenuArea > ul {
+    color: #4c4c4c !important;
+    font-weight: 700;
+    }
+
+    > form > table.gTable2 > tbody > tr:nth-child(1) > td {
+    border: 1px solid #ccc !important;
+    }
+
+    div.tabMenuArea > ul > li a:hover, 
+    div.tabMenuArea > ul > li:hover {
+    color: #3EB489 !important;
+    }
+}
+
+  
+.shop_list {
+border-bottom: none;
+}
+
+.shop_frame {
+padding: 0 !important;
+}
+  
+#FRM {
+> div.show_view {
+    display: flex !important;
+
+    > div.shop_frame.shop_title_text {
+    order: 1;
+    }
+
+    > div.shop_frame.shop_title_text > div:nth-child(1) {
+    font-size: 20px !important;
+    }
+
+    > div:nth-child(11) {
+    order: 3;
+    margin-top: 0 !important;
+    }
+
+    > div:nth-child(9) {
+    order: 4;
+    }
+
+    > div:nth-child(10) {
+    order: 5;
+    }
+
+    > div.shop_frame.clearfix.shop_framehyo {
+    font-size: 20px !important;
+    border-top: none !important;
+    }
+}
+}
+
+tr.dis_none {
+display: none;
+}
+
+[name="frm01"] td[bgcolor],
+[name="FRM"] tr:nth-child(2) > td:nth-child(2)[bgcolor] {
+background-color: #8d8d8d;
+}
+
+#imgSize > form > table > tbody > tr:nth-child(3) > td > table > tbody > tr:nth-child(11) > td {
+background-color: transparent !important;
+}
+
+[name="FRM"] .gTable2 tr:first-of-type > td {
+border-top: 3px solid #8c8c8c;
+}
 
 //이용후기  
-  #list_table {
-    > tbody > tr:nth-of-type(2) table {
-      background: none !important;
-    }
-    .gal_img img {
-      width: 100% !important;
-      height: 100% !important;
-      object-fit: cover!important;
-      max-width: none !important;
-      max-height: none !important;
-    }
-    .bgc_pos{
-        height: 300px !important;
-    }
-    .gal_ttl.limitTxt{
-        font-size: 20px !important;
-        font-weight: 600 !important;
-        a:link{
-            color:#333!important;
-            &:hover{
-                color:#3EB489 !important
-            }
+#list_table {
+> tbody > tr:nth-of-type(2) table {
+    background: none !important;
+}
+.gal_img img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover!important;
+    max-width: none !important;
+    max-height: none !important;
+}
+.bgc_pos{
+    height: 300px !important;
+}
+.gal_ttl.limitTxt{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    a:link{
+        color:#333!important;
+        &:hover{
+            color:#3EB489 !important
         }
     }
-  }
+}
+}
+//반응형
+#green18_105003{
+    .banArea{
+        padding: 10px !important;
+    }
+}
+
+//인기차량
+#green18_106718 {
+    .gal_eff1{
+        .shopHead{
+            border-bottom: none !important;
+        }
+    }   li{
+        height: auto !important;
+    }
+}
+#green18_98273 .gal_box{
+    border:none !important;
+}
+@media screen and (max-width:768px){
+    #list_table > tbody > tr:nth-child(1) > td.item.gals_0 > table > tbody > tr> td{
+        border: none !important;
+    }
+}
