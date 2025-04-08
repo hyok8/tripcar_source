@@ -78,22 +78,21 @@
             }
          }
       }
-      div:nth-child(1){
-         font-size: 20px !important;
-      }
-      div:nth-child(9){
-         display: none!important;
-      }
-      div:nth-child(10){
-         order:3;
-      }
    }
    >.shop_frame.clearfix.shop_framehyo{
       font-size: 20px !important;
       border-top:none !important;
    }     
 }
-
+#FRM > div.show_view > div:nth-child(1){
+   font-size: 20px !important;
+}
+#FRM > div.show_view > div:nth-child(9){
+   display:none !important;
+}
+#FRM > div.show_view > div:nth-child(10){
+   order:3;
+}
 
 //#FRM > div.show_view > div:nth-child(11) {order:3; margin-top: 0 !important;}
 //#FRM > div.show_view > div:nth-child(9){order:4}

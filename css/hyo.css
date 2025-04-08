@@ -72,18 +72,21 @@
   color: #ff7f50 !important;
   font-weight: 900 !important;
 }
-#FRM > .show_view .shop_frame.shop_title_text div:nth-child(1) {
-  font-size: 20px !important;
-}
-#FRM > .show_view .shop_frame.shop_title_text div:nth-child(9) {
-  display: none !important;
-}
-#FRM > .show_view .shop_frame.shop_title_text div:nth-child(10) {
-  order: 3;
-}
 #FRM > .show_view > .shop_frame.clearfix.shop_framehyo {
   font-size: 20px !important;
   border-top: none !important;
+}
+
+#FRM > div.show_view > div:nth-child(1) {
+  font-size: 20px !important;
+}
+
+#FRM > div.show_view > div:nth-child(9) {
+  display: none !important;
+}
+
+#FRM > div.show_view > div:nth-child(10) {
+  order: 3;
 }
 
 .shop_btn a div {
