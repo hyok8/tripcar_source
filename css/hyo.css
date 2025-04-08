@@ -81,12 +81,21 @@
   font-size: 20px !important;
 }
 
+#FRM > div.show_view > div:nth-child(2) > div > div {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+}
+
 #FRM > div.show_view > div:nth-child(9) {
   display: none !important;
 }
 
 #FRM > div.show_view > div:nth-child(10) {
   order: 3;
+}
+#FRM > div.show_view > div:nth-child(10) div:last-child {
+  display: none !important;
 }
 
 .shop_btn a div {
