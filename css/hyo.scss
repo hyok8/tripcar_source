@@ -97,13 +97,11 @@
 }
 #FRM > div.show_view > div:nth-child(10) {
    order: 3;
- 
-   div:last-child {
-     display: none !important;
-   }
  }
 
-
+ #FRM > div.show_view > div:nth-child(11){
+   margin-top:0 !important;
+ }
 
 //#FRM > div.show_view > div:nth-child(11) {order:3; margin-top: 0 !important;}
 //#FRM > div.show_view > div:nth-child(9){order:4}

@@ -94,8 +94,9 @@
 #FRM > div.show_view > div:nth-child(10) {
   order: 3;
 }
-#FRM > div.show_view > div:nth-child(10) div:last-child {
-  display: none !important;
+
+#FRM > div.show_view > div:nth-child(11) {
+  margin-top: 0 !important;
 }
 
 .shop_btn a div {
