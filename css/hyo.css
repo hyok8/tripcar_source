@@ -135,4 +135,21 @@ div.tabMenuArea > ul > li a:hover {
 #list_table .gal_img img {
   width: 100% !important;
   height: 100% !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  max-width: none !important;
+  max-height: none !important;
+}
+#list_table .bgc_pos {
+  height: 300px !important;
+}
+#list_table .gal_ttl.limitTxt {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+#list_table .gal_ttl.limitTxt a:link {
+  color: #333 !important;
+}
+#list_table .gal_ttl.limitTxt a:link:hover {
+  color: #3EB489 !important;
 }
