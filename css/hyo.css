@@ -147,6 +147,9 @@ tr.dis_none {
 [name=FRM] .gTable2 tr:first-of-type > td {
   border-top: 3px solid #8c8c8c;
 }
+[name=FRM] .gTable2 tr:first-of-type > th {
+  border-top: 1px solid #ccc !important;
+}
 
 div.tabMenuArea > ul > li:hover,
 div.tabMenuArea > ul > li a:hover {
@@ -184,4 +187,48 @@ div.tabMenuArea > ul > li a:hover {
 }
 #list_table .gal_ttl.limitTxt a:link:hover {
   color: #3EB489 !important;
+}
+#list_table tbody > tr:nth-child(1) > td > table {
+  font-family: "Noto Sans KR", sans-serif !important;
+  border: none !important;
+  border-bottom: none !important;
+  padding: 0 15px !important;
+}
+#list_table tbody > tr:nth-child(1) > td > table > tbody,
+#list_table tbody > tr:nth-child(1) > td > table > tbody > tr {
+  display: flex !important;
+}
+#list_table tbody > tr:nth-child(1) > td > table > tbody > td:last-child,
+#list_table tbody > tr:nth-child(1) > td > table > tbody > tr > td:last-child {
+  display: flex !important;
+  flex-direction: column !important;
+}
+#list_table tbody > tr:nth-child(1) > td > table > tbody > td:last-child > div:first-child,
+#list_table tbody > tr:nth-child(1) > td > table > tbody > tr > td:last-child > div:first-child {
+  display: none !important;
+}
+#list_table tbody > tr:nth-child(1) > td > table > tbody > td:last-child .nbg,
+#list_table tbody > tr:nth-child(1) > td > table > tbody > tr > td:last-child .nbg {
+  order: 2 !important;
+}
+#list_table tbody > tr:nth-child(1) > td > table > tbody > td:last-child br,
+#list_table tbody > tr:nth-child(1) > td > table > tbody > tr > td:last-child br {
+  display: none !important;
+}
+#list_table tbody > tr:nth-child(1) > td > table > tbody > td:last-child span,
+#list_table tbody > tr:nth-child(1) > td > table > tbody > tr > td:last-child span {
+  order: 1 !important;
+}
+#list_table tbody > tr:nth-child(1) > td > table > tbody > td:last-child span strong,
+#list_table tbody > tr:nth-child(1) > td > table > tbody > tr > td:last-child span strong {
+  font-size: 20px !important;
+  color: #333;
+}
+#list_table tbody > tr:nth-child(1) > td > table > tbody > td:last-child span br,
+#list_table tbody > tr:nth-child(1) > td > table > tbody > tr > td:last-child span br {
+  display: none !important;
+}
+
+#layoutBg > div {
+  padding-top: 0 !important;
 }
