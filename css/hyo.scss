@@ -256,7 +256,6 @@ div.tabMenuArea>ul>li a:hover {
    }
 
    //이벤트페이지
-   #list_table > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(4) > div.nbg > strong > a
    tbody {
       >tr>td>table {
          font-family: "Noto Sans KR", sans-serif !important;
@@ -266,7 +265,7 @@ div.tabMenuArea>ul>li a:hover {
          >tbody,
          >tbody>tr{
             display: flex!important;
-            >td:last-child{
+            >td:nth-child(4){
                display:flex!important;
                flex-direction:column!important;
                position: relative!important;
