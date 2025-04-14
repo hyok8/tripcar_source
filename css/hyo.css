@@ -113,7 +113,7 @@
 }
 
 #imgSize > form > div.shop-cade03 > ul > li.active {
-  background-color: #3EB489 !important;
+  border: 2px solid #3EB489 !important;
 }
 #imgSize > form > div.shop-cade03 > ul > li.active a {
   color: #3EB489 !important;

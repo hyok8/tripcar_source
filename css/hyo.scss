@@ -138,12 +138,12 @@
 #tot_txt {
    font: size 25px !important;
 }
-
+// 렌트카 목록페이지
 #imgSize {
    >form {
       >div.shop-cade03>ul>li {
          &.active {
-            background-color: #3EB489 !important;
+            border: 2px solid #3EB489!important;
             a{
                color: #3EB489 !important;
 
