@@ -188,49 +188,49 @@ div.tabMenuArea > ul > li a:hover {
   color: #3EB489 !important;
 }
 
-.event_list tbody > tr > td > table {
+.eventPage tbody > tr > td > table {
   font-family: "Noto Sans KR", sans-serif !important;
   border: none !important;
   border-bottom: none !important;
   padding: 0 15px !important;
 }
-.event_list tbody > tr > td > table > tbody,
-.event_list tbody > tr > td > table > tbody > tr {
+.eventPage tbody > tr > td > table > tbody,
+.eventPage tbody > tr > td > table > tbody > tr {
   display: flex !important;
 }
-.event_list tbody > tr > td > table > tbody > td:nth-child(4),
-.event_list tbody > tr > td > table > tbody > tr > td:nth-child(4) {
+.eventPage tbody > tr > td > table > tbody > td:nth-child(4),
+.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) {
   display: flex !important;
   flex-direction: column !important;
   position: relative !important;
 }
-.event_list tbody > tr > td > table > tbody > td:nth-child(4) > div:first-child,
-.event_list tbody > tr > td > table > tbody > tr > td:nth-child(4) > div:first-child {
+.eventPage tbody > tr > td > table > tbody > td:nth-child(4) > div:first-child,
+.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) > div:first-child {
   display: none !important;
 }
-.event_list tbody > tr > td > table > tbody > td:nth-child(4) .nbg,
-.event_list tbody > tr > td > table > tbody > tr > td:nth-child(4) .nbg {
+.eventPage tbody > tr > td > table > tbody > td:nth-child(4) .nbg,
+.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) .nbg {
   order: 2 !important;
 }
-.event_list tbody > tr > td > table > tbody > td:nth-child(4) .nbg a,
-.event_list tbody > tr > td > table > tbody > tr > td:nth-child(4) .nbg a {
+.eventPage tbody > tr > td > table > tbody > td:nth-child(4) .nbg a,
+.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) .nbg a {
   position: absolute !important;
   top: 0 !important;
   padding: 60px 0 !important;
   font-weight: 400 !important;
 }
-.event_list tbody > tr > td > table > tbody > td:nth-child(4) br,
-.event_list tbody > tr > td > table > tbody > tr > td:nth-child(4) br {
+.eventPage tbody > tr > td > table > tbody > td:nth-child(4) br,
+.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) br {
   display: none !important;
 }
-.event_list tbody > tr > td > table > tbody > td:nth-child(4) span,
-.event_list tbody > tr > td > table > tbody > tr > td:nth-child(4) span {
+.eventPage tbody > tr > td > table > tbody > td:nth-child(4) span,
+.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) span {
   order: 1 !important;
   font-size: 24px !important;
   color: #333;
 }
-.event_list tbody > tr > td > table > tbody > td:nth-child(4) span br,
-.event_list tbody > tr > td > table > tbody > tr > td:nth-child(4) span br {
+.eventPage tbody > tr > td > table > tbody > td:nth-child(4) span br,
+.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) span br {
   display: none !important;
 }
 
