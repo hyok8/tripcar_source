@@ -141,12 +141,17 @@
 
 #imgSize {
    >form {
-      >div.shop-cade03>ul>li.active {
-         border: 2px solid #3EB489 !important;
+      >div.shop-cade03>ul>li {
+         &.active {
+            background-color: #3EB489 !important;
+            a{
+               color: #3EB489 !important;
+
+            }
+         }        
 
          a {
-            color: #3EB489 !important;
-
+           
             &:hover {
                color: #3EB489 !important;
             }
@@ -240,7 +245,7 @@ div.tabMenuArea>ul>li a:hover {
 
    //이벤트페이지
    tbody {
-      >tr:nth-child(1)>td>table {
+      >tr>td>table {
          font-family: "Noto Sans KR", sans-serif !important;
          border: none !important;
          border-bottom: none !important;
