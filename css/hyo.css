@@ -156,6 +156,10 @@ div.tabMenuArea > ul > li a:hover {
   color: #3EB489 !important;
 }
 
+[name=frm01] #list_table td table {
+  padding: 0 !important;
+}
+
 #list_table > tbody > tr:nth-child(2) div {
   box-shadow: none !important;
   background: none !important;
