@@ -217,6 +217,7 @@ div.tabMenuArea > ul > li a:hover {
   top: 0 !important;
   padding: 60px 0 !important;
   font-weight: 400 !important;
+  color: red;
 }
 #list_table tbody > tr > td > table > tbody > td:nth-child(4) br,
 #list_table tbody > tr > td > table > tbody > tr > td:nth-child(4) br {
