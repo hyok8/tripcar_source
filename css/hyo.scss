@@ -138,20 +138,22 @@
 #tot_txt {
    font: size 25px !important;
 }
+
 // 렌트카 목록페이지
 #imgSize {
    >form {
       >div.shop-cade03>ul>li {
          &.active {
-            border: 2px solid #3EB489!important;
-            a{
+            border: 2px solid #3EB489 !important;
+
+            a {
                color: #3EB489 !important;
 
             }
-         }        
+         }
 
          a {
-           
+
             &:hover {
                color: #3EB489 !important;
             }
@@ -200,10 +202,11 @@ div.tabMenuArea>ul>li:hover,
 div.tabMenuArea>ul>li a:hover {
    color: #3EB489 !important;
 }
-[name="frm01"]{
+
+[name="frm01"] {
    #list_table {
-      td{
-         table{
+      td {
+         table {
             padding: 0 !important;
          }
       }
@@ -211,6 +214,7 @@ div.tabMenuArea>ul>li a:hover {
    }
 
 }
+
 #list_table {
    >tbody>tr:nth-child(2) {
       div {
@@ -229,12 +233,12 @@ div.tabMenuArea>ul>li a:hover {
    }
 
    .gal_img {
-      img{
-      width: 100% !important;
-      height: 100% !important;
-      object-fit: cover !important;
-      max-width: none !important;
-      max-height: none !important;
+      img {
+         width: 100% !important;
+         height: 100% !important;
+         object-fit: cover !important;
+         max-width: none !important;
+         max-height: none !important;
       }
    }
 
@@ -254,52 +258,61 @@ div.tabMenuArea>ul>li a:hover {
          }
       }
    }
+}
 
-   //이벤트페이지
+//이벤트페이지
+.event_list {
    tbody {
       >tr>td>table {
          font-family: "Noto Sans KR", sans-serif !important;
          border: none !important;
          border-bottom: none !important;
-         padding: 0 15px!important;
+         padding: 0 15px !important;
+
          >tbody,
-         >tbody>tr{
-            display: flex!important;
-            >td:nth-child(4){
-               display:flex!important;
-               flex-direction:column!important;
-               position: relative!important;
-               >div:first-child{
-                  display:none!important;
+         >tbody>tr {
+            display: flex !important;
+
+            >td:nth-child(4) {
+               display: flex !important;
+               flex-direction: column !important;
+               position: relative !important;
+
+               >div:first-child {
+                  display: none !important;
                }
-               .nbg{
+
+               .nbg {
                   order: 2 !important;
-                  a{
-                     position: absolute!important;
-                     top: 0!important;
-                     padding: 60px 0!important;
-                     font-weight: 400!important;
+
+                  a {
+                     position: absolute !important;
+                     top: 0 !important;
+                     padding: 60px 0 !important;
+                     font-weight: 400 !important;
                   }
                }
-               br{
-                  display: none!important;
+
+               br {
+                  display: none !important;
                }
-               span{
+
+               span {
                   order: 1 !important;
                   font-size: 24px !important;
                   color: #333;
 
-                  br{
-                     display: none!important;
+                  br {
+                     display: none !important;
                   }
                }
             }
          }
       }
    }
-
 }
+
+
 #layoutBg>div {
    padding-top: 0 !important;
 }
-
