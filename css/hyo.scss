@@ -263,6 +263,8 @@ div.tabMenuArea>ul>li a:hover {
 //이벤트페이지
 .eventPage {
    tbody {
+      display: flex, im !important;
+      flex-direction: column !important;
       >tr>td>table {
          font-family: "Noto Sans KR", sans-serif !important;
          border: none !important;
@@ -299,7 +301,7 @@ div.tabMenuArea>ul>li a:hover {
 
                span {
                   order: 1 !important;
-                  font-size: 24px !important;
+                  font-size: 23px !important;
                   color: #333;
 
                   br {
@@ -316,3 +318,4 @@ div.tabMenuArea>ul>li a:hover {
 #layoutBg>div {
    padding-top: 0 !important;
 }
+

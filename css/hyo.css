@@ -188,6 +188,10 @@ div.tabMenuArea > ul > li a:hover {
   color: #3EB489 !important;
 }
 
+.eventPage tbody {
+  display: flex, im !important;
+  flex-direction: column !important;
+}
 .eventPage tbody > tr > td > table {
   font-family: "Noto Sans KR", sans-serif !important;
   border: none !important;
@@ -226,7 +230,7 @@ div.tabMenuArea > ul > li a:hover {
 .eventPage tbody > tr > td > table > tbody > td:nth-child(4) span,
 .eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) span {
   order: 1 !important;
-  font-size: 24px !important;
+  font-size: 23px !important;
   color: #333;
 }
 .eventPage tbody > tr > td > table > tbody > td:nth-child(4) span br,
