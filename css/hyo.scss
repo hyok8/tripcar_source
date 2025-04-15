@@ -1,32 +1,3 @@
-//렌탈로고 스와이퍼
-.rolling-swiper {
-   max-width: 1200px;
-   margin: 0 auto;
-   overflow: hidden;
- 
-   .swiper-wrapper {
-     display: flex;
-     align-items: center;
-   }
- 
-   .swiper-slide {
-     width: auto;
-     flex-shrink: 0;
-     padding: 8px;
-     background: #fff;
-     border-radius: 8px;
-     box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
- 
-     img {
-       display: block;
-       width: 160px;
-       height: auto;
-       object-fit: contain;
-     }
-   }
- }
-
-
 //메인페이지 배너
 .bx-wrapper {
    .bx-controls-direction {
