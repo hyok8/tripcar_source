@@ -261,7 +261,7 @@ div.tabMenuArea>ul>li a:hover {
 }
 
 //이벤트페이지
-#list_table {
+.eventPage > #list_table {
    tbody {
       display: flex, im !important;
       flex-direction: column !important;
@@ -302,7 +302,7 @@ div.tabMenuArea>ul>li a:hover {
 
                span {
                   order: 1 !important;
-                  font-size: 23px !important;
+                  font-size: 2.3rem !important;
                   color: #333;
 
                   br {
