@@ -1,27 +1,26 @@
-@import url("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
-.swiper {
-  width: 100%;
-  padding-bottom: 30px;
+.rolling-swiper {
   max-width: 1200px;
   margin: 0 auto;
-}
-.swiper .swiper-slide {
-  background: #eee;
-  border-radius: 8px;
   overflow: hidden;
 }
-.swiper .swiper-slide img {
+.rolling-swiper .swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+.rolling-swiper .swiper-slide {
+  width: auto;
+  flex-shrink: 0;
+  padding: 8px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+.rolling-swiper .swiper-slide img {
   display: block;
-  width: 100%;
+  width: 160px;
   height: auto;
-}
-.swiper .swiper-pagination {
-  text-align: center;
-}
-@media (max-width: 1200px) {
-  .swiper .swiper {
-    max-width: 100%;
-  }
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .bx-wrapper .bx-controls-direction a {
