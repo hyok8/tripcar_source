@@ -12,7 +12,7 @@ function initSwiper() {
     fetch('../data/rentlogo.json')
         .then(res => res.json())
         .then(images => {
-            const target = document.querySelector('#b-80694');
+            const target = document.querySelector('#b-80694 .banArea');
 
             const swiperContainer = document.createElement('div');
             swiperContainer.classList.add('swiper', 'rolling-swiper');
