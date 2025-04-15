@@ -24,6 +24,11 @@
   height: 100%;
 }
 
+#footer04 > div.fixed_top {
+  bottom: 50px;
+  right: 30px;
+}
+
 #FRM > .show_view > .shop_frame.clearfix.shop_framehyo,
 #FRM > .show_view > .shopPriceBox,
 #FRM > .show_view > .opt_content,
@@ -188,53 +193,53 @@ div.tabMenuArea > ul > li a:hover {
   color: #3EB489 !important;
 }
 
-.eventPage tbody {
+#list_table tbody {
   display: flex, im !important;
   flex-direction: column !important;
 }
-.eventPage tbody > tr > td > table {
+#list_table tbody > tr > td > table {
   font-family: "Noto Sans KR", sans-serif !important;
   border: none !important;
   border-bottom: none !important;
   padding: 0 15px !important;
 }
-.eventPage tbody > tr > td > table > tbody,
-.eventPage tbody > tr > td > table > tbody > tr {
+#list_table tbody > tr > td > table > tbody,
+#list_table tbody > tr > td > table > tbody > tr {
   display: flex !important;
 }
-.eventPage tbody > tr > td > table > tbody > td:nth-child(4),
-.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) {
+#list_table tbody > tr > td > table > tbody > td:nth-child(4),
+#list_table tbody > tr > td > table > tbody > tr > td:nth-child(4) {
   display: flex !important;
   flex-direction: column !important;
   position: relative !important;
 }
-.eventPage tbody > tr > td > table > tbody > td:nth-child(4) > div:first-child,
-.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) > div:first-child {
+#list_table tbody > tr > td > table > tbody > td:nth-child(4) > div:first-child,
+#list_table tbody > tr > td > table > tbody > tr > td:nth-child(4) > div:first-child {
   display: none !important;
 }
-.eventPage tbody > tr > td > table > tbody > td:nth-child(4) .nbg,
-.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) .nbg {
+#list_table tbody > tr > td > table > tbody > td:nth-child(4) .nbg,
+#list_table tbody > tr > td > table > tbody > tr > td:nth-child(4) .nbg {
   order: 2 !important;
 }
-.eventPage tbody > tr > td > table > tbody > td:nth-child(4) .nbg a,
-.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) .nbg a {
+#list_table tbody > tr > td > table > tbody > td:nth-child(4) .nbg a,
+#list_table tbody > tr > td > table > tbody > tr > td:nth-child(4) .nbg a {
   position: absolute !important;
   top: 0 !important;
   padding: 60px 0 !important;
   font-weight: 400 !important;
 }
-.eventPage tbody > tr > td > table > tbody > td:nth-child(4) br,
-.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) br {
+#list_table tbody > tr > td > table > tbody > td:nth-child(4) br,
+#list_table tbody > tr > td > table > tbody > tr > td:nth-child(4) br {
   display: none !important;
 }
-.eventPage tbody > tr > td > table > tbody > td:nth-child(4) span,
-.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) span {
+#list_table tbody > tr > td > table > tbody > td:nth-child(4) span,
+#list_table tbody > tr > td > table > tbody > tr > td:nth-child(4) span {
   order: 1 !important;
   font-size: 23px !important;
   color: #333;
 }
-.eventPage tbody > tr > td > table > tbody > td:nth-child(4) span br,
-.eventPage tbody > tr > td > table > tbody > tr > td:nth-child(4) span br {
+#list_table tbody > tr > td > table > tbody > td:nth-child(4) span br,
+#list_table tbody > tr > td > table > tbody > tr > td:nth-child(4) span br {
   display: none !important;
 }
 

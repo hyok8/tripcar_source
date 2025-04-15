@@ -32,13 +32,13 @@
       height: 100%;
    }
 }
-
-// #footer04 {
-//    >div.fixed_top {
-//       bottom: 50px;
-//       right: 30px;
-//    }
-// }
+//퀵메뉴
+#footer04 {
+   >div.fixed_top {
+      bottom: 50px;
+      right: 30px;
+   }
+}
 
 //상세페이지 박스
 #FRM>.show_view {
@@ -261,10 +261,11 @@ div.tabMenuArea>ul>li a:hover {
 }
 
 //이벤트페이지
-.eventPage {
+#list_table {
    tbody {
       display: flex, im !important;
       flex-direction: column !important;
+
       >tr>td>table {
          font-family: "Noto Sans KR", sans-serif !important;
          border: none !important;
@@ -318,4 +319,3 @@ div.tabMenuArea>ul>li a:hover {
 #layoutBg>div {
    padding-top: 0 !important;
 }
-
