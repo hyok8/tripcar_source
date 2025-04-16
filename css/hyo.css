@@ -201,7 +201,7 @@ div.tabMenuArea > ul > li a:hover {
   font-family: "Noto Sans KR", sans-serif !important;
   border: none !important;
   border-bottom: none !important;
-  padding: 0 15px !important;
+  padding: 0 0 !important;
 }
 .eventPage #list_table tbody > tr > td > table > tbody,
 .eventPage #list_table tbody > tr > td > table > tbody > tr {
@@ -245,4 +245,16 @@ div.tabMenuArea > ul > li a:hover {
 
 #layoutBg > div {
   padding-top: 0 !important;
+}
+
+.pageNum {
+  display: flex !important;
+  justify-content: center !important;
+}
+.pageNum a {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
 }

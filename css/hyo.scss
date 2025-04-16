@@ -271,7 +271,7 @@ div.tabMenuArea>ul>li a:hover {
          font-family: "Noto Sans KR", sans-serif !important;
          border: none !important;
          border-bottom: none !important;
-         padding: 0 15px !important;
+         padding: 0 0 !important;
 
          >tbody,
          >tbody>tr {
@@ -316,7 +316,17 @@ div.tabMenuArea>ul>li a:hover {
    }
 }
 
-
 #layoutBg>div {
    padding-top: 0 !important;
+}
+//페이지넘버
+.pageNum{
+   display: flex !important;
+   justify-content: center !important;
+   a{
+      display:flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      width: fit-content !important;
+   }
 }
