@@ -124,9 +124,6 @@
 #imgSize > form > table.gTable2 > tbody > tr:first-child > td {
   border: 1px solid #ccc !important;
 }
-#imgSize > form > table > tbody > tr:nth-child(3) > td > table > tbody > tr:nth-child(11) > td {
-  background-color: transparent !important;
-}
 #imgSize > div > div.tabMenuArea > ul {
   color: #4c4c4c !important;
   font-weight: 700;
