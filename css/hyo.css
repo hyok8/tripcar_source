@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "YOnepickTTF-Bold";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/YOnepickTTF-Bold.woff2") format("woff2");
-  font-weight: 700;
+  font-family: "HSSanTokki20-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2") format("woff2");
+  font-weight: normal;
   font-style: normal;
 }
 .bx-wrapper .bx-controls-direction a {
@@ -237,8 +237,7 @@ div.tabMenuArea > ul > li a:hover {
   font-size: 22px !important;
   color: #333;
   padding: 10px 0 !important;
-  font-family: "YOnepickTTF-Bold" !important;
-  font-weight: 700 !important;
+  font-family: "HSSanTokki20-Regular" !important;
 }
 .eventPage #list_table tbody > tr > td > table > tbody > td:last-child span br,
 .eventPage #list_table tbody > tr > td > table > tbody > tr > td:last-child span br {
