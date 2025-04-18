@@ -1,342 +1,344 @@
-//메인페이지 배너
-.manrope-regular {
-   font-family: "Manrope", sans-serif;
-   font-optical-sizing: auto;
-   font-weight: 400;
-   font-style: normal;
+ @font-face {
+    font-family: "Gaegu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    src: url(https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Manrope:wght@200..800&family=Noto+Sans+KR:wght@745&display=swap) format('woff2');
  }
- 
-.bx-wrapper {
-   .bx-controls-direction {
-      a {
-         width: 78px !important;
-         height: 78px !important;
-      }
-   }
 
-   .bx-prev {
-      left: 50px !important;
-      background: url(https://d-hye.github.io/source/img_tripcar/slideBtnLeft.svg) no-repeat center / contain !important;
-   }
+ //메인페이지 배너
+ .bx-wrapper {
+    .bx-controls-direction {
+       a {
+          width: 78px !important;
+          height: 78px !important;
+       }
+    }
 
-   .bx-next {
-      right: 50px !important;
-      background: url(https://d-hye.github.io/source/img_tripcar/slideBtnRight.svg) no-repeat center / contain !important;
-   }
-}
+    .bx-prev {
+       left: 50px !important;
+       background: url(https://d-hye.github.io/source/img_tripcar/slideBtnLeft.svg) no-repeat center / contain !important;
+    }
 
-//div.shopSelBox02 > div > select, .shopPriceBox+div, #prdAsment, #tabMenus,#FRM > table:nth-child(37), #tabMenus, .shop_list, .shopPriceBox{display:none;}
+    .bx-next {
+       right: 50px !important;
+       background: url(https://d-hye.github.io/source/img_tripcar/slideBtnRight.svg) no-repeat center / contain !important;
+    }
+ }
 
-#bannerBox1,
-#bannerBox2 {
-   width: 80px !important;
-   height: 80px !important;
-   background-color: rgba(255, 255, 255, 0.5) !important;
-   border-radius: 50% !important;
+ //div.shopSelBox02 > div > select, .shopPriceBox+div, #prdAsment, #tabMenus,#FRM > table:nth-child(37), #tabMenus, .shop_list, .shopPriceBox{display:none;}
 
-   >div>a>img {
-      width: 100% !important;
-      height: 100%;
-   }
-}
+ #bannerBox1,
+ #bannerBox2 {
+    width: 80px !important;
+    height: 80px !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border-radius: 50% !important;
 
-//퀵메뉴
-#footer04 {
-   >div.fixed_top {
-      bottom: 50px;
-      right: 30px;
-   }
-}
+    >div>a>img {
+       width: 100% !important;
+       height: 100%;
+    }
+ }
 
-//상세페이지 박스
-#FRM>.show_view {
+ //퀵메뉴
+ #footer04 {
+    >div.fixed_top {
+       bottom: 50px;
+       right: 30px;
+    }
+ }
 
-   >.shop_frame.clearfix.shop_framehyo,
-   >.shopPriceBox,
-   >.opt_content,
-   >.shop_list02 {
-      display: none !important;
-   }
-}
+ //상세페이지 박스
+ #FRM>.show_view {
 
-#FRM>.show_view {
-   display: flex !important;
-   flex-direction: column !important;
-   width: 450px !important;
-   height: 300px !important;
-   box-shadow: 0px 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
-   padding: 20px !important;
-   border-radius: 20px !important;
+    >.shop_frame.clearfix.shop_framehyo,
+    >.shopPriceBox,
+    >.opt_content,
+    >.shop_list02 {
+       display: none !important;
+    }
+ }
 
-   div:nth-child(2)>div>div.shop_list {
-      border-bottom: none !important;
-      padding-bottom: 0 !important;
-   }
+ #FRM>.show_view {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 450px !important;
+    height: 300px !important;
+    box-shadow: 0px 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+    padding: 20px !important;
+    border-radius: 20px !important;
 
-   .shop_frame.shop_title_text {
-      order: 1;
-      font-size: 24px !important;
-      margin-bottom: auto !important;
+    div:nth-child(2)>div>div.shop_list {
+       border-bottom: none !important;
+       padding-bottom: 0 !important;
+    }
 
-      +.shop_frame {
-         order: 2;
-         padding: 0 !important;
+    .shop_frame.shop_title_text {
+       order: 1;
+       font-size: 24px !important;
+       margin-bottom: auto !important;
 
-         .shop_list {
-            border-bottom: none !important;
+       +.shop_frame {
+          order: 2;
+          padding: 0 !important;
 
-            >s {
-               font-family: 'Noto Sans KR', sans-serif !important;
-               font-weight: 500 !important;
-               font-size: 16px !important;
-               margin-right: 0 !important;
-            }
+          .shop_list {
+             border-bottom: none !important;
 
-            >span>strong {
-               font-family: Noto Sans KR, sans-serif !important;
-               color: #ff7f50 !important;
-               font-weight: 900 !important;
-            }
-         }
-      }
-   }
+             >s {
+                font-family: 'Noto Sans KR', sans-serif !important;
+                font-weight: 500 !important;
+                font-size: 16px !important;
+                margin-right: 0 !important;
+             }
 
-   >.shop_frame.clearfix.shop_framehyo {
-      font-size: 20px !important;
-      border-top: none !important;
-   }
-}
+             >span>strong {
+                font-family: Noto Sans KR, sans-serif !important;
+                color: #ff7f50 !important;
+                font-weight: 900 !important;
+             }
+          }
+       }
+    }
 
-#FRM>div.show_view>div:nth-child(1) {
-   font-size: 20px !important;
-}
+    >.shop_frame.clearfix.shop_framehyo {
+       font-size: 20px !important;
+       border-top: none !important;
+    }
+ }
 
-#FRM>div.show_view>div:nth-child(2)>div>div {
-   display: flex !important;
-   flex-direction: column !important;
-   align-items: flex-end !important;
-}
+ #FRM>div.show_view>div:nth-child(1) {
+    font-size: 20px !important;
+ }
 
-#FRM>div.show_view>div:nth-child(9) {
-   display: none !important;
-}
+ #FRM>div.show_view>div:nth-child(2)>div>div {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+ }
 
-#FRM>div.show_view>div:nth-child(10) {
-   order: 3;
-}
+ #FRM>div.show_view>div:nth-child(9) {
+    display: none !important;
+ }
 
-#FRM>div.show_view>div:nth-child(11) {
-   margin-top: 0 !important;
-}
+ #FRM>div.show_view>div:nth-child(10) {
+    order: 3;
+ }
 
-//#FRM > div.show_view > div:nth-child(11) {order:3; margin-top: 0 !important;}
-//#FRM > div.show_view > div:nth-child(9){order:4}
-//#FRM > div.show_view > div:nth-child(10){order:5}
-//#FRM > div.show_view > div:nth-child(10) > div:nth-child(3) > a > div{border-radius:50px;}
+ #FRM>div.show_view>div:nth-child(11) {
+    margin-top: 0 !important;
+ }
 
-.shop_btn a div {
-   background: #3EB489 !important;
-   border-radius: 50px !important;
-}
+ //#FRM > div.show_view > div:nth-child(11) {order:3; margin-top: 0 !important;}
+ //#FRM > div.show_view > div:nth-child(9){order:4}
+ //#FRM > div.show_view > div:nth-child(10){order:5}
+ //#FRM > div.show_view > div:nth-child(10) > div:nth-child(3) > a > div{border-radius:50px;}
 
-.shop_btn02 a div {
-   border-radius: 50px !important;
-}
+ .shop_btn a div {
+    background: #3EB489 !important;
+    border-radius: 50px !important;
+ }
 
-#tot_txt {
-   font: size 25px !important;
-}
+ .shop_btn02 a div {
+    border-radius: 50px !important;
+ }
 
-// 렌트카 목록페이지
-#imgSize {
-   >form {
-      >div.shop-cade03>ul>li {
-         &.active {
-            border: 2px solid #3EB489 !important;
+ #tot_txt {
+    font: size 25px !important;
+ }
 
-            a {
-               color: #3EB489 !important;
+ // 렌트카 목록페이지
+ #imgSize {
+    >form {
+       >div.shop-cade03>ul>li {
+          &.active {
+             border: 2px solid #3EB489 !important;
 
-            }
-         }
+             a {
+                color: #3EB489 !important;
 
-         a {
+             }
+          }
 
-            &:hover {
-               color: #3EB489 !important;
-            }
-         }
-      }
+          a {
 
-      >table.gTable2>tbody>tr:first-child>td {
-         border: 1px solid #ccc !important;
-      }
+             &:hover {
+                color: #3EB489 !important;
+             }
+          }
+       }
 
-      // >table>tbody>tr:nth-child(3)>td>table>tbody>tr:nth-child(11)>td {
-      //    background-color: transparent !important;
-      // }
-   }
+       >table.gTable2>tbody>tr:first-child>td {
+          border: 1px solid #ccc !important;
+       }
 
-   >div>div.tabMenuArea>ul {
-      color: #4c4c4c !important;
-      font-weight: 700;
-   }
-}
+       // >table>tbody>tr:nth-child(3)>td>table>tbody>tr:nth-child(11)>td {
+       //    background-color: transparent !important;
+       // }
+    }
 
-//이용문의페이지
-tr.dis_none {
-   display: none;
-}
+    >div>div.tabMenuArea>ul {
+       color: #4c4c4c !important;
+       font-weight: 700;
+    }
+ }
 
-// //[name="frm01"] td[bgcolor] {
-//    background-color: #8d8d8d;
-// }
+ //이용문의페이지
+ tr.dis_none {
+    display: none;
+ }
 
-[name="FRM"] tr:nth-child(2)>td:nth-child(2)[bgcolor] {
-   background-color: #8d8d8d;
-}
+ // //[name="frm01"] td[bgcolor] {
+ //    background-color: #8d8d8d;
+ // }
 
-[name="FRM"] .gTable2 tr:first-of-type {
-   >td {
-      border-top: 3px solid #8c8c8c;
-   }
+ [name="FRM"] tr:nth-child(2)>td:nth-child(2)[bgcolor] {
+    background-color: #8d8d8d;
+ }
 
-   >th {
-      border-top: 1px solid #ccc !important;
-   }
-}
+ [name="FRM"] .gTable2 tr:first-of-type {
+    >td {
+       border-top: 3px solid #8c8c8c;
+    }
 
-div.tabMenuArea>ul>li:hover,
-div.tabMenuArea>ul>li a:hover {
-   color: #3EB489 !important;
-}
+    >th {
+       border-top: 1px solid #ccc !important;
+    }
+ }
 
-[name="frm01"] {
-   #list_table {
-      td {
-         table {
-            padding: 0 !important;
-         }
-      }
+ div.tabMenuArea>ul>li:hover,
+ div.tabMenuArea>ul>li a:hover {
+    color: #3EB489 !important;
+ }
 
-   }
+ [name="frm01"] {
+    #list_table {
+       td {
+          table {
+             padding: 0 !important;
+          }
+       }
 
-}
+    }
 
-#list_table {
-   >tbody>tr:nth-child(2) {
-      div {
-         box-shadow: none !important;
-         background: none !important;
-         text-align: left !important;
-      }
+ }
 
-      table {
-         background: none !important;
-      }
+ #list_table {
+    >tbody>tr:nth-child(2) {
+       div {
+          box-shadow: none !important;
+          background: none !important;
+          text-align: left !important;
+       }
 
-      .bgc_000 {
-         display: none !important;
-      }
-   }
+       table {
+          background: none !important;
+       }
 
-   .gal_img {
-      img {
-         width: 100% !important;
-         height: 100% !important;
-         object-fit: cover !important;
-         max-width: none !important;
-         max-height: none !important;
-      }
-   }
+       .bgc_000 {
+          display: none !important;
+       }
+    }
 
-   .bgc_pos {
-      height: 300px !important;
-   }
+    .gal_img {
+       img {
+          width: 100% !important;
+          height: 100% !important;
+          object-fit: cover !important;
+          max-width: none !important;
+          max-height: none !important;
+       }
+    }
 
-   .gal_ttl.limitTxt {
-      font-size: 20px !important;
-      font-weight: 600 !important;
+    .bgc_pos {
+       height: 300px !important;
+    }
 
-      a:link {
-         color: #333 !important;
+    .gal_ttl.limitTxt {
+       font-size: 20px !important;
+       font-weight: 600 !important;
 
-         &:hover {
-            color: #3EB489 !important
-         }
-      }
-   }
-}
+       a:link {
+          color: #333 !important;
 
-//이벤트페이지
-.eventPage #list_table {
-   tbody {
-      display: flex, im !important;
-      flex-direction: column !important;
+          &:hover {
+             color: #3EB489 !important
+          }
+       }
+    }
+ }
 
-      >tr>td>table {
-         font-family: "Noto Sans KR", sans-serif !important;
-         border: none !important;
-         border-bottom: none !important;
-         padding: 0 0 !important;
+ //이벤트페이지
+ .eventPage #list_table {
+    tbody {
+       display: flex, im !important;
+       flex-direction: column !important;
 
-         >tbody,
-         >tbody>tr {
-            display: flex !important;
+       >tr>td>table {
+          font-family: "Noto Sans KR", sans-serif !important;
+          border: none !important;
+          border-bottom: none !important;
+          padding: 0 0 !important;
 
-            >td:last-child {
-               display: flex !important;
-               flex-direction: column !important;
-               position: relative !important;
+          >tbody,
+          >tbody>tr {
+             display: flex !important;
 
-               >div:first-child {
-                  display: none !important;
-               }
+             >td:last-child {
+                display: flex !important;
+                flex-direction: column !important;
+                position: relative !important;
 
-               .nbg {
-                  order: 2 !important;
+                >div:first-child {
+                   display: none !important;
+                }
 
-                  a {
-                     position: absolute !important;
-                     top: 0 !important;
-                     padding: 60px 0 !important;
-                     font-weight: 400 !important;
-                  }
-               }
+                .nbg {
+                   order: 2 !important;
 
-               br {
-                  display: none !important;
-               }
+                   a {
+                      position: absolute !important;
+                      top: 0 !important;
+                      padding: 60px 0 !important;
+                      font-weight: 400 !important;
+                   }
+                }
 
-               span {
-                  order: 1 !important;
-                  font-size: 23px !important;
-                  color: #333;
-                  padding: 10px 0 !important;
-                  font-family:"monrope", sans-serif !important;
-                  font-weight: 500 !important;
+                br {
+                   display: none !important;
+                }
 
-                  br {
-                     display: none !important;
-                  }
-               }
-            }
-         }
-      }
-   }
-}
+                span {
+                   order: 1 !important;
+                   font-size: 22px !important;
+                   color: #333;
+                   padding: 10px 0 !important;
+                   font-family: "Gaegu", sans-serif !important;
+                   font-weight: 700 !important;
 
-#layoutBg>div {
-   padding-top: 0 !important;
-}
-//페이지넘버
-.pageNum{
-   display: flex !important;
-   justify-content: center !important;
-   a{
-      display:flex !important;
-      justify-content: center !important;
-      align-items: center !important;
-      width: fit-content !important;
-   }
-}
+                   br {
+                      display: none !important;
+                   }
+                }
+             }
+          }
+       }
+    }
+ }
+
+ #layoutBg>div {
+    padding-top: 0 !important;
+ }
+
+ //페이지넘버
+ .pageNum {
+    display: flex !important;
+    justify-content: center !important;
+
+    a {
+       display: flex !important;
+       justify-content: center !important;
+       align-items: center !important;
+       width: fit-content !important;
+    }
+ }
