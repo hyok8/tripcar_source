@@ -222,6 +222,8 @@ div.tabMenuArea > ul > li a:hover {
 }
 .eventPage #list_table tbody > tr > td > table > tbody > td:last-child .nbg a,
 .eventPage #list_table tbody > tr > td > table > tbody > tr > td:last-child .nbg a {
+  display: block !important;
+  width: 600px !important;
   position: absolute !important;
   top: 0 !important;
   padding: 60px 0 !important;
