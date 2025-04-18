@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "Single Day", cursive;
-  font-weight: 400;
+  font-family: "YOnepickTTF-Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/YOnepickTTF-Bold.woff2") format("woff2");
+  font-weight: 700;
   font-style: normal;
-  src: url(https://fonts.googleapis.com/css2?family=Single+Day&display=swap) format("woff2");
 }
 .bx-wrapper .bx-controls-direction a {
   width: 78px !important;
@@ -237,7 +237,8 @@ div.tabMenuArea > ul > li a:hover {
   font-size: 22px !important;
   color: #333;
   padding: 10px 0 !important;
-  font-family: "Single Day", cursive !important;
+  font-family: "YOnepickTTF-Bold" !important;
+  font-weight: 700 !important;
 }
 .eventPage #list_table tbody > tr > td > table > tbody > td:last-child span br,
 .eventPage #list_table tbody > tr > td > table > tbody > tr > td:last-child span br {
