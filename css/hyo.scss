@@ -1,10 +1,9 @@
 @font-face {
-   font-family: 'EF_jejudoldam';
-   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+   font-family: 'Katuri';
+   src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/Katuri.woff') format('woff');
    font-weight: normal;
    font-style: normal;
 }
-
 
  //메인페이지 배너
  .bx-wrapper {
@@ -314,7 +313,7 @@
                    font-size: 22px !important;
                    color: #333;
                    padding: 10px 0 !important;
-                   font-family: "EF_jejudoldam" !important;
+                   font-family: "Katuri" !important;
                    br {
                       display: none !important;
                    }
